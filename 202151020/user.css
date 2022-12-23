@@ -1,0 +1,11 @@
+body {
+    background-image: url(image/istockphoto-1185245180-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-family: monospace;
+    font-size: 70px;
+}
