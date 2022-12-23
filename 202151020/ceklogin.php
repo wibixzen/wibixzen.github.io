@@ -6,7 +6,7 @@ $nim = $_POST['nim'];
 $pass = $_POST['password'];
 
 if ($nim == "") {
-	header("location:login.php?nim=kosong");
+	header("location:login.html?nim=kosong");
 }
 
 $data = mysqli_query($conn,"select * from mahasiswa where nim='$nim'and password='$pass'");
